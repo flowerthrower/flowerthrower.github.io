@@ -1,13 +1,17 @@
-import logo from './logo.svg';
+import present from './present.svg';
 import './App.css';
+import Emoji from './emoji';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <a href="https://escape-at-home.de/produkt/das-filmset/">
+          <img src={present} className="App-logo" alt="logo" />
+        </a>
         <h1>
-          I love JC
+          Happy Birthday Jessica!
+          <Emoji symbol="🕵🏻‍♀️🕵🏻‍♂️" label="sheep"/>
         </h1>
       </header>
     </div>
