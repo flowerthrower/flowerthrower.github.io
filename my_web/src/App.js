@@ -12,7 +12,7 @@ function App() {
         <h1>
           Happy Birthday Jessica!
           <a href="https://www.escape-at-home.de/mission/" target="_blank" rel="noreferrer">
-            <Emoji symbol="🕵🏻‍♀️🕵🏻‍♂️" label="sheep"/>
+            <Emoji symbol="🕵🏻‍♀️🕵🏻‍♂️" label="detectives"/>
           </a>
         </h1>
       </header>
