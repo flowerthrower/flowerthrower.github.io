@@ -6,16 +6,17 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <a href="https://escape-at-home.de/produkt/das-filmset/">
+        <a href="https://www.escape-at-home.de/mission/briefing.php" target="_blank" rel="noreferrer">
           <img src={present} className="App-logo" alt="logo" />
         </a>
         <h1>
           Happy Birthday Jessica!
-          <Emoji symbol="🕵🏻‍♀️🕵🏻‍♂️" label="sheep"/>
+          <a href="https://www.escape-at-home.de/mission/" target="_blank" rel="noreferrer">
+            <Emoji symbol="🕵🏻‍♀️🕵🏻‍♂️" label="sheep"/>
+          </a>
         </h1>
       </header>
     </div>
   );
 }
-
 export default App;
